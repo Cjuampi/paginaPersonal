@@ -1,0 +1,172 @@
+body{
+    margin: 0px 0px 0px 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.izquierda {
+    background: #c65b7c;
+    
+}
+
+
+.pic-circular{
+    width: 350px; 
+    height: 350px; 
+    border-radius: 300px; 
+    -webkit-border-radius: 300px; 
+    -moz-border-radius: 300px; 
+    background: url(../img/2meshibuya.jpg) no-repeat; 
+    background-position: 47% 30%;
+    margin-top:10%;
+    margin-left: 30%;
+    border: 2px solid grey;
+}
+
+.pic-circular img { opacity: 0; filter: alpha(opacity=0); }
+
+
+/*.aboutme span{
+    margin: 0;
+}
+
+.aboutme{
+margin-left: 30%;
+margin-top: 5%;
+font-size: 25px;
+}*/
+
+.aboutme{
+    /*border: 1px solid black;*/
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 5%;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.cosasGustan li{
+    display: inline-block;
+    margin: 2px;
+    
+}
+
+.cosasGustan li{
+    padding: 0%;   
+    /*position: relative !important;
+    background: #000;*/
+    background: rgba(0, 5, 0, 0.4);
+    float: left;
+    padding: 2px 3px;
+    margin: 0 5px 5px 0;
+    border-radius: 5px;
+}
+
+/*main*/
+.izquierda {
+    height: 100vh;
+    width: 50%;
+    margin:0;
+}
+.derecha{
+    /*background: url(../img/desk-code.jpg);
+    background-size: cover;
+    background-position: center;*/
+    background-color: #83c5be;
+    width: 50%;
+}
+.fila{
+    display: flex;
+    margin: 0;
+}
+.ul-top li{
+    display: inline;
+    margin: 0px 30px 0px 30px;
+}
+
+.ul-top li a {
+    color:#E9C46A;
+    text-decoration: none;
+}
+.ul-top{
+    padding:0px;
+    text-align: left;
+}
+
+h1{
+    font-size: 40px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+#subtitle {
+    text-align: center;
+    margin-bottom: 2%;
+    color: #E9C46A;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto ;
+}
+
+#link-prycts a{
+    margin-top: 5%;
+    padding:20px;
+    border: 1px solid #E9C46A;
+    text-decoration: none;
+    display: inline-block;
+    color:#E9C46A;
+}
+
+#link-prycts{
+    margin-top: 4%;
+    text-align: center;
+}
+
+.tdcontizq{
+    margin-top: 15%;
+}
+
+#link-prycts > a:hover {
+    background-color: #E9C46A;
+    color: #264653;
+}
+
+sub{
+    font-size: 20px;
+    color:#E9C46A;
+    font-weight: bold;
+}
+span{
+    color: #E9C46A;
+}
+
+/*footer*/
+footer{
+    margin-top: -4% ;
+    
+}
+.sct-scl-media{
+    font-size: 18px;
+}
+.ul-bttm-media{
+    padding:0px;
+    text-align: left;
+}
+
+.ul-bttm-media li{
+    display: inline;
+    margin: 0px 30px 0px 30px;  
+}
+
+.ul-bttm-media li a{
+    color:#E9C46A;
+    text-decoration: none;
+}
+
+#copyright{
+    margin-left: 20px;
+    text-align: right;
+    color:#E9C46A;
+}
