@@ -24,16 +24,6 @@ body{
 .pic-circular img { opacity: 0; filter: alpha(opacity=0); }
 
 
-/*.aboutme span{
-    margin: 0;
-}
-
-.aboutme{
-margin-left: 30%;
-margin-top: 5%;
-font-size: 25px;
-}*/
-
 .aboutme{
     /*border: 1px solid black;*/
     width: 50%;
