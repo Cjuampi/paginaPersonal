@@ -42,8 +42,6 @@ body{
 
 .cosasGustan li{
     padding: 0%;   
-    /*position: relative !important;
-    background: #000;*/
     background: rgba(0, 5, 0, 0.4);
     float: left;
     padding: 2px 3px;
@@ -58,9 +56,6 @@ body{
     margin:0;
 }
 .derecha{
-    /*background: url(../img/desk-code.jpg);
-    background-size: cover;
-    background-position: center;*/
     background-color: #83c5be;
     width: 50%;
 }
